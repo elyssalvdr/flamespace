@@ -1,6 +1,7 @@
 {
     "private": true,
     "scripts": {
+        "prod": "node your_production_script.js",
         "postinstall": "npm run prod",
         "dev": "vite",
         "build": "vite build"
