@@ -33,7 +33,7 @@ export default function Login() {
 
   return (
     <div className="login-signup-form animated fadeInDown">
-      <div className="form">
+      <div className="login-form">
         <form onSubmit={onSubmit}>
           <h1 className="title">Login to FlameSpace</h1>
 
@@ -45,7 +45,7 @@ export default function Login() {
 
           <input ref={emailRef} type="email" placeholder="Email"/>
           <input ref={passwordRef} type="password" placeholder="Password"/>
-          <button className="btn">Login</button>
+          <button className="login-btn">Login</button>
           <p className="message">Not registered? <Link to="/signup">Create an account</Link></p>
         </form>
       </div>
